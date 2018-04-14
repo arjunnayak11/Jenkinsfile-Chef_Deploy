@@ -8,7 +8,7 @@ pipeline {
         string(name: 'ApplicationRole', defaultValue: 'mc_mpass_switchui-sbx')
         string(name: 'numb',defaultValue: '0' )
         string(name: 'Object_Pipeline',defaultValue: 'ChefObjectPipeline/Masterpass/chef-ui-state-chef-objects')
-        string(name: 'Cred_ID', defaultValue: 'masterpass-to')
+        string(name: 'Cred_ID', defaultValue: 'masterkas-to')
         string(name: 'gitRepo',defaultValue: 'https://globalrepository.mclocal.int/stash/scm/mpass/chef-ui-state.git')
         string(name: 'gitBranch',defaultValue: 'master')
         string(name: 'chef_ID',defaultValue: 'chef_prod_reader',description: 'Credentials ID for chef server')
